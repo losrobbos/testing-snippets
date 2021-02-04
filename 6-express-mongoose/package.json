@@ -1,0 +1,19 @@
+{
+  "name": "3-express-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "@types/jest": "^26.0.15",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.15",
+    "supertest": "^6.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

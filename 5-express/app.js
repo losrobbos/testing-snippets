@@ -12,7 +12,10 @@ app.post('/', (req, res) => {
   res.json(req.body)
 })
 
-// bin/www
+// for testing we ideally OUTSOURCE the server startip (=listen) from the app file
+// e.g. to a file: bin/www
+// this way we can test all routes of our app without actually launching the API !
+
 // app.listen(port, () => {
 //   console.log('Example app listening on port port!');
 // });
